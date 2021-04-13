@@ -77,7 +77,7 @@ public class CalculatorSpecTest {
         /**
          * This method should square a value (double) provided by the user.
          */
-        double expectedValue = 7;
+        double expectedValue = 8;
         double actualValue = calculator.cube(2);
         assertEquals("This should evaluate to 8", expectedValue, actualValue, delta);
     }

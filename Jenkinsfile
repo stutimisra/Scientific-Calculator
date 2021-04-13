@@ -1,4 +1,5 @@
 pipeline {
+    agent { label 'scientific-calculator-agent' }
     stages {
         stage('Build') {
             steps {
